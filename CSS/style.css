@@ -1,0 +1,50 @@
+
+body {
+    background-image: url(Assets/binary.jpg);
+    background: 0.1;
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+
+}       
+
+.countdownBox {
+    color: black;
+    background-color:#831f1f;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.hoverBox {
+    background-color: rgba(255,255,255, 0.7);
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    outline: 10px solid #831f1f;
+    overflow: auto;
+    width: 75%;
+}
+
+.startHidden {
+    display: none;
+}
+
+button {
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    background-color: #831f1f;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: black;
+    border:#831f1f ;
+    color: whitesmoke;
+}

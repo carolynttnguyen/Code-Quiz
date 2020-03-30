@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- linking bootstrap for css styling, and style file for the webpage design -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding and Programming Quiz</title>
+</head>
+<body>
+    <nav> 
+        <!-- nav bar to hold timer -->
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: rgba(255,255,255, 0.7);">
+            <!-- container holding for nav bar -->
+            <div class="container">
+                <!-- tuimer printed here-->
+                <div class="countdownBox">
+                    <p>Time Left: <span id="counterDisplay"></span></p>
+                </div>
+            </div>
+        </nav> 
+    </nav>
+    <!-- end of nav bar -->
+    
+    <div class="quizWrap">
+        <!-- need to prepopulate any divs we'll be printing to as we need to add col info to them to make the page responsive-->
+        <div id="quizBox" class="hoverBox">
+        <!-- BOX ONE- starter box explaing instructions to game-->
+            <div id="box1">
+                <h3>Coding Quiz</h3>
+                <p>Press Start to begin the quiz!</p>
+                <p>You will have 60 seconds on the clock to answer 8 questions. However, 15 seconds will be deducted from your timer for each wrong answer. </p>
+                <p>YOU'VE GOT THIS!!!GET THAT BREAD!</p>
+                <!-- A <button id="startButton" > to start the quiz -->
+                <button id="startQuiz">Start Quiz!</button>
+            </div>
+            
+            <!-- BOX TWO- showcasses quiz quiestions to interface-->
+            <div id="box2" class="startHidden"> 
+                <h3 id="title"></h3>
+                <button id ="A" class="quizBtn"></button>
+                <button id ="B" class="quizBtn"></button>
+                <button id ="C" class="quizBtn"></button>
+                <button id="D" class="quizBtn"></button>
+               <!-- check answers shows if user got question right or wrong in js  -->
+                <p id="checkAnswers"></p>
+            </div>
+            
+            <!-- BOX THREE - reference index html file for button to go back -->
+            <div id="box3" class="startHidden">
+                <h3>UH OH, Times UP! Keep trying!</h3>
+                <a href="index.html" class="button px-2 py-1">Go Back</a>
+            </div>
+
+            <!-- BOX FOUR - once game is over, user submits score with initials -->   
+            <div id="box4" class="startHidden">
+                <h3 id="endMsg"></h3>
+                <h4 id="userScore"></h4>
+                <p>Enter your initials for scoreboard(:</p>
+                <form>
+                    <input type="text" id="userName">
+                    <!--button to submit-->
+                    <a href="highScore.html" id="submitNameScore" class="button px-2 py-1">Submit</a>
+                </form>
+            </div>
+
+        </div>
+            
+    </div>
+    <!-- Script File linked  -->
+    <script src="Javascripts/script.js"></script>
+    
+</body>
+</html>
