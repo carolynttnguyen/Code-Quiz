@@ -32,3 +32,5 @@
 ## Installation
 For the whole source code, you will want to link, a HTML, CSS, and JS file together. JS can be linked in the body of your HTMl.
 For my code editor, I use [visual Code](https://code.visualstudio.com/), which can be installed from their website. A quick tip- have you HTMl opened in the browers, so you can refresh any time to see if any changes have been made, or if the functions are working properly. In additon, if you would like a more complex or decorative layout I reccomend using Bootstrap to aid with the process. It will save you a lot of time.
+<br>
+Here is a link to the website, incase you are not able to reach it: https://carolynttnguyen.github.io/Code-Quiz/
