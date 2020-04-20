@@ -1,7 +1,7 @@
 ## This Repository
 
 <p> 
-  As a Coding Bootcamp studet, I understand how challenging it can get. You going to always want to do a sanity check, and make sure you know the material inside an out. With the intentions to  help any students get a little comprehensive check, I created a Code Quiz on Javascript fundamentals. I used Application Programming interfaces, composed of dynamically updated HTML, CSS, and powered by Javascript to build a timed quiz with multiple choice. As a web developer, you will most likely be asked to complete coding assessments with interactive challenges, on your journey. Taking the quiz would be a good way for you to grasp where you might be in theis learning process.</p>
+  As a Coding student, I understand how challenging it can get. You going to always want to do a sanity check, and make sure you know the material inside an out. With the intentions to  help any students get a little comprehensive check, I created a Code Quiz on Javascript fundamentals. I used Application Programming interfaces, composed of dynamically updated HTML, CSS, and powered by Javascript to build a timed quiz with multiple choice. As a web developer, you will most likely be asked to complete coding assessments with interactive challenges, on your journey. Taking the quiz would be a good way for you to grasp where you might be in theis learning process.</p>
 
 <br>
 
